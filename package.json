@@ -1,0 +1,26 @@
+{
+  "name": "github-action-practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack build ./src/app.js -o ./public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uzuhinta/github-action-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uzuhinta/github-action-practice/issues"
+  },
+  "homepage": "https://github.com/uzuhinta/github-action-practice#readme",
+  "devDependencies": {
+    "jest": "^27.4.5",
+    "webpack": "^5.65.0",
+    "webpack-cli": "^4.9.1"
+  }
+}
