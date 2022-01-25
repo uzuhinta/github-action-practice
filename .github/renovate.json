@@ -1,0 +1,20 @@
+{
+  "extends": ["config:base", ":semanticCommits"],
+  "packageRules": [
+    {
+      "matchUpdateTypes": [
+        "minor",
+        "patch",
+        "pin",
+        "digest",
+        "lockFileMaintenance",
+        "rollback",
+        "bump"
+      ],
+      "automerge": true
+    }
+  ],
+  "reviewers": ["uzuhinta"],
+  "stabilityDays": 1,
+  "separateMajorMinor": true
+}
