@@ -1,22 +1,2 @@
 {
-  "extends": ["config:base", ":semanticCommits"],
-  "packageRules": [
-    {
-      "matchUpdateTypes": [
-        "minor",
-        "patch",
-        "pin",
-        "digest",
-        "lockFileMaintenance",
-        "rollback",
-        "bump"
-      ],
-      "automerge": true
-    }
-  ],
-  "reviewers": ["uzuhinta"],
-  "timezone": "America/Los_Angeles",
-  "schedule": ["before 4am"],
-  "stabilityDays": 1,
-  "separateMajorMinor": true
 }
